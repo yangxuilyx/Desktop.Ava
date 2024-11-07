@@ -10,8 +10,8 @@ namespace Desktop.Ava
             InitializeComponent();
             var browserWrapper = this.FindControl<Decorator>("browserWrapper");
 
-         var   browser = new AvaloniaCefBrowser();
-            browser.Address = "https://dev-his.ysmhis.com/his-system-api/middle-web/emr/home";
+            var browser = new AvaloniaCefBrowser();
+            browser.Address = "https://www.google.com";
 
             browserWrapper.Child = browser;
         }
